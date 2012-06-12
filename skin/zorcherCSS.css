@@ -1,0 +1,18 @@
+.zorcher-groupbox
+{
+	border:1px solid #b2b2b2;
+	-moz-border-radius:5px;
+}
+#zorcher-statusbar{cursor:pointer;}
+.zorcher-bold{font-weight:bold;}
+#zorcherPreferences #boxZorcher grid checkbox image
+{
+	width:16px;
+	max-width:16px;
+	height:16px;
+	max-height:16px;
+}
+#zorcher-popup arrowscrollbox{max-height:350px;}
+#zorcher-scrollbox, #zorcher-searchers-list{max-height:300px;}
+#zorcherPrefWords{margin-bottom:10px;}
+#zorcherPrefWords{margin-right:10px;}

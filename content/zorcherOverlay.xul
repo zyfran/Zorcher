@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://zorcher/skin/zorcherCSS.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://zorcher/locale/zorcherOverlay.dtd">
+<overlay id="zorcher-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="zorcherCommon.js"/>
+	<script type="application/x-javascript" src="zorcherOverlay.js"/>
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="zorcher-bundleset" src="chrome://zorcher/locale/zorcher.properties"/>
+	</stringbundleset>
+	<keyset id="mainKeyset">
+		<key id="zorcher-key" modifiers="alt" key="Z" keycode="VG_Z" oncommand="zorcherActionModule.options();" />
+	</keyset>
+	<popup id="contentAreaContextMenu">
+		<menu class="menu-iconic" image="chrome://zorcher/skin/zorcher16.png" id="zorcher-menu" label="&zorcher.menu.label;" insertbefore="context-searchselect" hidden="true">
+			<menupopup id="zorcher-popup" oncommand="zorcherActionModule.startSearch( event.target );" onpopupshowing="zorcherActionModule.createElements(event);" onpopuphiding="zorcherActionModule.destroyElements(event);" />
+		</menu>
+	</popup>
+    <statusbar id="status-bar">
+        <statusbarpanel class="statusbarpanel-iconic" tooltiptext="&zorcher.statusbar.tooltip; Alt+Z" image="chrome://zorcher/skin/zorcher16.png" id="zorcher-statusbar" oncommand="zorcherActionModule.options();" insertafter="security-button" context="zorcher-contextmenu" />
+        <!--window.openDialog('chrome://zorcher/content/about.xul', '', 'chrome,centerscreen,modal').focus;-->
+		<menupopup id="zorcher-contextmenu" onpopupshowing="zorcherActionModule.createSiteElements(event);" onpopuphiding="zorcherActionModule.destroySiteElements(event);" oncommand="if (zorcherActionModule.func.inArray(event.target, zorcherActionModule.searchElem)!=-1)zorcherActionModule.searchSite(event.target);">
+			<menuitem class="zorcher-bold" label="&zorcher.statusbar.label;" id="zorcher-contextmenu-options" oncommand="zorcherActionModule.options();" />
+			<menuseparator />
+			<menuitem type="checkbox" id="zorcher-multiple-checkbox" label="&zorcher.multiple.label;" checked="false" oncommand="zorcherActionModule.toggleMultipleEngines(this);" />
+		</menupopup>
+    </statusbar>
+</overlay>

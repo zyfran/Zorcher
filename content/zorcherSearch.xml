@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE bindings [
+<!ENTITY % searchBarDTD SYSTEM "chrome://browser/locale/searchbar.dtd" >
+%searchBarDTD;
+<!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd">
+%browserDTD;
+<!ENTITY % zorcherDTD SYSTEM "chrome://zorcher/locale/zorcherOverlay.dtd">
+%zorcherDTD;
+]>
+
+<bindings id="ZorcherBindings"
+      xmlns="http://www.mozilla.org/xbl"
+      xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+      xmlns:xbl="http://www.mozilla.org/xbl">
+
+  <binding id="searchbar-textbox" extends="chrome://browser/content/search/search.xml?orig#searchbar-textbox">
+  </binding>
+
+  <binding id="searchbar" extends="chrome://browser/content/search/search.xml?orig#searchbar">
+	<content>
+      <xul:stringbundle src="chrome://browser/locale/search.properties"
+                        anonid="searchbar-stringbundle"/>
+
+      <xul:textbox id="zorcher-searchbar-textbox" class="searchbar-textbox"
+                   anonid="searchbar-textbox"
+                   type="autocomplete"
+                   flex="1"
+                   autocompletepopup="PopupAutoComplete"
+                   autocompletesearch="search-autocomplete"
+                   autocompletesearchparam="searchbar-history"
+                   timeout="250"
+                   maxrows="10"
+                   completeselectedindex="true"
+                   showcommentcolumn="true"
+                   tabscrolling="true"
+                   xbl:inherits="disabled,disableautocomplete,searchengine,src,newlines">
+        <xul:button class="searchbar-engine-button"
+                    type="menu"
+                    anonid="searchbar-engine-button">
+          <xul:image class="searchbar-engine-image" xbl:inherits="src"/>
+          <xul:image class="searchbar-dropmarker-image"/>
+          <xul:menupopup class="searchbar-popup"
+                         anonid="searchbar-popup">
+            <xul:menuseparator/>
+            <xul:menuitem class="open-engine-manager"
+                          anonid="open-engine-manager"
+                          label="&cmd_engineManager.label;"
+                          oncommand="openManager(event);"/>
+            <xul:menuitem id="zorcher-searchbar" type="checkbox" label="&zorcher.multiple.label;" oncommand="zorcherActionModule.toggleMultipleEngines(this);" />
+          </xul:menupopup>
+        </xul:button>
+        <xul:hbox class="search-go-container">
+          <xul:image id="zorcher-search-go-button" class="search-go-button"
+                     anonid="search-go-button"
+                     onclick="handleSearchCommand(event);"
+                     tooltiptext="&searchEndCap.label;" />
+        </xul:hbox>
+      </xul:textbox>
+	</content>
+	<implementation implements="nsIObserver">
+      <method name="handleSearchCommand">
+        <parameter name="aEvent"/>
+        <body><![CDATA[
+          var textBox = this._textbox;
+          var textValue = textBox.value;
+          if (aEvent && aEvent.originalTarget.getAttribute("anonid") == "search-go-button" && aEvent.button == 2)
+            return;
+          if (textValue)
+            textBox._formHistSvc.addEntry(textBox.getAttribute("autocompletesearchparam"), textValue);
+          zorcherActionModule.searchBar();
+        ]]></body>
+      </method>
+    </implementation>
+  </binding>
+</bindings>

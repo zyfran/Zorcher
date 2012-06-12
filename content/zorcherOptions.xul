@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://zorcher/skin/zorcherCSS.css" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://zorcher/locale/zorcherPref.dtd">
+<prefwindow id="zorcherPreferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&zorcher.title.label;">
+	<script type="application/x-javascript" src="zorcherCommon.js"/>
+	<script type="application/x-javascript" src="zorcherOptions.js"/>
+	<prefpane id="zorcher_pref">
+		<preferences id="zorcher_prefs">
+			<preference id="zorcher_words_string" name="extensions.zorcher.key_words" type="string"/>
+			<preference id="zorcher_words_bool" name="extensions.zorcher.all_search" type="bool"/>
+		</preferences>
+		<vbox id="zorcherPrefContent" flex="1">
+			<groupbox class="zorcher-groupbox">
+				<caption>
+					<label value="&zorcher.textbox.label;" control="zorcherPrefWords" />
+				</caption>
+				<textbox id="zorcherPrefWords" preference="zorcher_words_string" multiline="true" rows="7" cols="20" />
+			</groupbox>
+			<groupbox id="boxZorcher" class="zorcher-groupbox">
+				<caption>
+					<checkbox id="zorcherAllSearch" preference="zorcher_words_bool" label="&zorcher.multiple.label;" oncommand="zorcherOptionModule.checkInput( this.checked );"/>
+				</caption>
+				<grid>
+					<columns>
+						<column flex="1" />
+						<column flex="1" />
+						<column flex="1" />
+						<column flex="1" />
+					</columns>
+					<rows id="zorcherSearchEngines" />
+				</grid>
+			</groupbox>
+		</vbox>
+	</prefpane>
+</prefwindow>

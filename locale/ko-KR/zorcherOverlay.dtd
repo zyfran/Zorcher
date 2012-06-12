@@ -1,0 +1,4 @@
+<!ENTITY zorcher.menu.label "검색 구문">
+<!ENTITY zorcher.statusbar.label "설정">
+<!ENTITY zorcher.statusbar.tooltip "설정 Zorcher">
+<!ENTITY zorcher.multiple.label "여러 검색 플러그인">
