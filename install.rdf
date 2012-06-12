@@ -1,549 +1,576 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
-	<Description about="urn:mozilla:install-manifest">
-		<em:id>{f8b811fa-75a4-41f7-8fdd-376a02a29aa6}</em:id>
-		<em:version>0.4.3.0.1</em:version>
-		<em:buildid>201011221750</em:buildid>
-		<em:type>2</em:type>
-		<em:optionsURL>chrome://zorcher/content/zorcherOptions.xul</em:optionsURL>
-		<em:iconURL>chrome://zorcher/skin/zorcher32.png</em:iconURL>
-		<!--<em:homepageURL></em:homepageURL>-->
-		<!--<em:aboutURL></em:aboutURL>-->
-		<em:localized>
-			<Description>
-				<em:locale>en-US</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Selecting a small text on the page do not need to copy it into the search bar of your browser or search engine. Just press the right mouse button and select the search service from the available list.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ru-RU</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Выделив на странице небольшой текст не нужно копировать его в поисковую строку браузера или поискового сервиса. Достаточно нажать правую клавишу мыши и выбрать нужный поисковый сервис из имеющегося списка.</em:description>
-				<em:creator>Александр Жовтобрюх</em:creator>
-				<em:developer>Александр Ежак</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>pt-BR</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Selecionando um pequena texto na página fazer dispensar copiar a na procura bar dos seus pesquisador ou engenho de pesquisa. Justamente pressione a tecla botão direito e selecione a procura serviço da disponível lista.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>et-EE</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Valides väike lehekülje teksti ei pea kopeerige see otsing oma brauseri või otsingumootor. Lihtsalt vajuta hiire paremat nuppu ja valige search teenuse kättesaadavaks nimekirja.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>sv-SE</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Välja en liten text på sidan behöver inte kopiera det i sökfältet i webbläsaren eller sökmotor. Tryck bara på höger musknapp och välj söktjänst från den tillgängliga listan.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>hr-HR</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Odabir mali tekst na stranici ne treba ga kopirati u pretraživanje traku Vašeg preglednika ili tražilice. Samo pritisnite desnu tipku miša i odaberite uslugu pretraživanja iz dostupnih popisa.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>hi-IN</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>पृष्ठ पर एक छोटे से पाठ का चयन करने की जरूरत है यह आपके ब्राउज़र या खोज इंजन के खोज पट्टी में प्रतिलिपि नहीं. बस सही माउस बटन दबाएँ और उपलब्ध सूची में से खोज सेवा का चयन करें.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>fi-FI</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Valitseminen pieni teksti sivulla ei tarvitse kopioida sen haun selaimesi tai hakukoneen. Paina vain hiiren oikealla painikkeella ja valitse haku palvelu luettelosta.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ur-PK</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>اس صفحہ پر ایک چھوٹی سی عبارت کو منتخب کیا یہ آپ کے براؤزر یا تلاش کے انجن کی تلاش کے خانے میں کاپی کرنے کی ضرورت نہیں ہے. بس صحیح ماؤس کا بٹن دبائیں اور دستیاب فہرست سے تلاش کی خدمت منتخب کریں.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>th-TH</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>การเลือกตัวอักษรขนาดเล็กบนหน้าเว็บไม่จำเป็นต้องคัดลอกลงในแถบการค้นหาของเบราว์เซอร์หรือเครื่องมือค้นหาของคุณ เพียงแค่กดปุ่มเมาส์ขวาและเลือกบริการการค้นหาจากรายการที่มีอยู่</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>tl</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Pagpili ng isang maliit na teksto sa pahina ay hindi kailangan upang kopyahin ito sa search bar ng iyong browser o mga search engine. Pindutin lamang ang kanang pindutan ng mouse at piliin ang paghahanap sa serbisyo mula sa mga magagamit na listahan.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>sw-KE</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Kuchagua Nakala ndogo katika ukurasa wa kufanya haja na nakala yake ndani ya search bar ya browser yako au search engine. Vyombo vya habari tu mouse button ya kulia na kuchagua huduma ya kutafuta kutoka orodha ya kupatikana.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>sl-SL</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Izbira majhna besedila na strani ni treba, da jo kopirajte v iskalno vrstico brskalnika ali iskalnika. Samo pritisnite desno tipko miške in izberite iskanje službe, ki so na voljo seznam.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>sk-SK</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Výber malého textu na stránke nemusia kopírovať to do vyhľadávacieho riadku vášho prehliadača alebo vyhľadávač. Stačí stlačiť pravé tlačidlo myši a vyberte z vyhľadávacie služby dostupné zoznamu.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>sr</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Избор мали текст на страници не треба да га копирате у траку за претрагу вашег прегледача или претраживача. Само притисните десним тастером миша и изаберите услугу за претрагу из доступних листе.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ro-RO</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Selectarea unui text de mici dimensiuni de pe pagina nu trebuie să-l copiaţi în bara de căutare din browser-ul dvs. sau motor de căutare. Doar apăsaţi pe butonul mouse-ului dreapta şi selectaţi serviciul de căutare din lista disponibilă.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>fa-IR</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>انتخاب متن های کوچکی بر روی صفحه لازم نیست که آن را در نوار جستجو از مرورگر شما و یا موتور جستجو را کپی کنید. فقط کافی است از دکمه راست موس را فشار دهید و انتخاب سرویس جستجو را از لیست موجود است.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>nn-NO</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Velge en liten tekst på siden trenger ikke å kopiere det inn i søkefeltet i nettleseren eller søkemotor. Bare trykk på høyre museknapp og velg søketjenesten fra tilgjengelig liste.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>mt-MT</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Għażla ta 'test żgħar fuq il-paġna m'għandhomx għalfejn kopja hija fil-bar tfittxija tal-browser tiegħek jew search engine. Just agħfas il-buttuna maws dritt u jagħżlu s-servizz tat-tiftix mill-lista disponibbli.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ms-MY</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Memilih teks kecil di halaman tidak perlu menyalin ke dalam kotak carian pada browser anda atau mesin carian. Hanya tekan butang tetikus sebelah kanan dan pilih perkhidmatan pencarian dari senarai yang sedia.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>mk-MK</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Избирање на мал текст на оваа страница не треба да го копирате во полето за пребарување на твојот прелистувач или да пребарувач. Само притиснете го десното копче на глувчето и одберете сервис за пребарување на достапните листа.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>lt-LT</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Pasirinkus mažas tekstą puslapyje nereikia nukopijuokite jį į paieškos juostą savo naršyklės, arba paieškos sistema. Tiesiog paspauskite dešiniuoju pelės klavišu ir pasirinkite paieškos tarnybos pagal turimus sąrašą.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>lv-LV</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Izvēloties neliels teksta lapā, nav nepieciešams, lai kopētu to meklēšanas joslā pārlūkprogrammu vai meklētājprogrammu. Vienkārši nospiediet peles labo pogu un izvēlieties meklēšanas pakalpojumu no pieejamās saraksta.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ko-KR</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>귀하의 브라우저 또는 검색 엔진의 검색 표시줄에 파일을 복사하지 않아도 해당 페이지에 작은 텍스트를 선택합니다. 그냥 마우스 오른쪽 버튼을 눌러 사용 가능한 목록에서 검색 서비스를 선택합니다.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ca-ES</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Selecció d'un petit text a la pàgina no cal copiar a la barra de cerca del navegador o en el motor de cerca. Només ha de prémer el botó dret del ratolí i seleccioneu el servei de recerca de la llista disponible.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>is-IS</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Val á litlum texta á síðunni þurfa ekki að afrita hann inn í the leita bar af vafranum eða leitarvél. Bara að ýta á hægri músarhnappi og velja leita þjónustu frá fyrirliggjandi lista.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ga-IE</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Ag roghnú téacs beag ar an leathanach seo nach gá a chóipeáil sé isteach ar an mbarra cuardach do bhrabhsálaí nó inneall cuardaigh. Díreach brúigh an cnaipe luiche ceart agus an tseirbhís cuardaigh ón liosta ar fáil roghnú.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>id-ID</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Memilih teks kecil di halaman tidak perlu menyalin ke dalam kotak pencarian pada browser Anda atau mesin pencari. Hanya tekan tombol mouse sebelah kanan dan pilih layanan pencarian dari daftar yang tersedia.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>yi</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>סאַלעקטינג אַ קליין טעקסט אויף דעם בלאַט טאָן ניט דאַרפֿן צו צייכענען עס אין די זוך באַר פון אייער בלעטערער אָדער זוכן מאָטאָר. נאָר דריקן די רעכט מויז קנעפּל און סעלעקטירן דעם זוכן דינסט פון די בנימצא רשימה.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>he-IL</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>בחירת טקסט קטנות בעמוד אין צורך להעתיק אותה לתוך שורת החיפוש של הדפדפן או מנוע החיפוש. פשוט לחצו על כפתור העכבר הימני ובחרו את שירות החיפוש מהרשימה זמינים.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ka-GE</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>შერჩევა პატარა ტექსტი გვერდი არ გვჭირდება კოპირება მას ძებნის ბარი თქვენს ბრაუზერში ან საძიებო სისტემა. უბრალოდ დააჭირეთ მაუსის მარჯვენა ღილაკს და აირჩიეთ ძებნის მომსახურება ხელმისაწვდომია სიაში.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>el-GR</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Επιλέγοντας ένα μικρό κείμενο για την σελίδα δεν χρειάζεται να το αντιγράψετε στη γραμμή αναζήτησης του browser σας ή μηχανή αναζήτησης. Απλά πατήστε το δεξί πλήκτρο του ποντικιού και επιλέξτε την υπηρεσία αναζήτησης από τη διαθέσιμη λίστα.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>nl-NL</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Het selecteren van een kleine tekst op de pagina is niet nodig om het te kopiëren in de zoekbalk van uw browser of zoekmachine. Je drukt op de rechter muisknop en selecteer de zoekservice uit de beschikbare lijst.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>gl-ES</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Seleccionando un pequeno texto na páxina non ten que copia-lo á barra de procura do seu navegador ou mecanismo de busca. Só ten que premer o botón dereito do rato e selecciona o servizo de procura a partir da lista dispoñible.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>vi-VN</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Lựa chọn một văn bản nhỏ trên trang không cần phải sao chép nó vào thanh tìm kiếm của trình duyệt hoặc công cụ tìm kiếm. Chỉ cần nhấn nút chuột phải và chọn các dịch vụ tìm kiếm từ danh sách có sẵn.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>hu-HU</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Kiválasztása egy kis szöveg az oldalon nem kell másolni a keresőbe a böngésző címsorába vagy a keresőmotor. Csak nyomja meg a jobb egérgombbal, és válassza ki a keresési szolgáltatást a listából.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>cy-GB</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Dewis testun bach ar y dudalen nid oes angen i copi i mewn i'r bar chwilio am eich porwr neu peiriant chwilio. Jyst pwyswch y botwm dde y llygoden a dewiswch y gwasanaeth chwilio o'r rhestr sydd ar gael.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>bg-BG</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Избор на малък текст на страницата, не трябва да го копирате в лентата за търсене на браузъра си или търсачка. Трябва само да натиснете десния бутон на мишката и изберете търсене на услуги от списъка с налични.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>be-BY</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Вылучыўшы на старонцы невялікі тэкст не трэба капіраваць яго ў пошукавую радок браўзэра або пошукавага сэрвісу. Дастаткова націснуць правую клавішу мышы і выбраць патрэбны пошукавы сэрвіс з наяўнага спісу.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>eu-ES</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Orrian testu txiki bat hautatzea beharrezko ez kopiatu zure nabigatzailearen edo bilatzaile barran bilatu nahi. Sakatu saguaren eskuineko botoia eta eskuragarri dauden zerrendatik zerbitzua bilaketa hautatu.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>af-ZA</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Kies van 'n klein teks op die bladsy hoef nie dit te kopieer in die search bar van jou browser of soek enjin. Druk net op die regter muis knoppie en kies die soektog diens van die beskikbare lys.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>hy-AM</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Ընտրելով մի փոքր տեքստ էջում չեն պետք է պատճենեք այն որոնումը բար Ձեր բրաուզերում կամ որոնման համակարգ. Պարզապես սեղմեք աջ մկնիկը կոճակը եւ ընտրեք այն որոնման ծառայություն առկա ցուցակը.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>sq-AL</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Zgjedhjen e një teksti të vogël në faqe nuk kanë nevojë për kopje e saj në shiritin e kërkimit të shfletuesit tuaj apo search engine. Vetëm shtypni butonin e djathte te mausit dhe zgjidhni shërbim kërkimi nga lista në dispozicion.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>az-AZ</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>brauzerinizin və ya axtarışı, search bar kopyalayın ehtiyac yoxdur Sehife bir kiçik mətn seçilməsi. Sadece sağ siçan düyməsini basın və mövcud siyahıdan axtarış xidmət seçin.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>uk-UK</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Виділивши на сторінці невеликий текст не потрібно копіювати його в пошуковий рядок браузера або пошукового сервісу. Досить натиснути праву клавішу миші і вибрати потрібний пошуковий сервіс з наявного списку.</em:description>
-				<em:creator>Олександр Жовтобрюх</em:creator>
-				<em:developer>Олександр Єжак</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ar</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>اختيار نص صغير على الصفحة لا تحتاج إلى نسخ في شريط البحث في المتصفح الخاص بك أو محرك البحث. مجرد الضغط على زر الفأرة الأيمن واختيار خدمة البحث من القائمة المتاحة.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>pl-PL</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Wybór małych tekstu na stronie nie trzeba skopiować go do paska wyszukiwania przeglądarki lub wyszukiwarki. Wystarczy kliknąć prawym przyciskiem myszy i wybierz wyszukiwarki z dostępnej listy.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>tr-TR</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Tarayıcınızın veya arama motoru arama çubuğuna kopyalayın gerekmez sayfasında küçük bir metin seçme. Sadece farenin sağ tuşuna basın ve mevcut listeden arama hizmeti seçin.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>cs-CZ</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Výběr malého textu na stránce nemusí kopírovat to do vyhledávacího řádku vašeho prohlížeče nebo vyhledávač. Stačí stisknout pravé tlačítko myši a vyberte z vyhledávací služby dostupné seznamu.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>fr-FR</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Sélection d'un texte sur la page n'est pas nécessaire de le copier dans la barre de recherche de votre navigateur ou le moteur de recherche. Il suffit d'appuyer sur le bouton droit de la souris et sélectionnez le service de recherche dans la liste disponible.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>de-DE</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Auswählen eines kleinen Text auf der Seite nicht brauchen, um sie in die Suchleiste Ihres Browsers oder Suchmaschinen zu kopieren. Drücken Sie einfach die rechte Maustaste und wählen Sie den Suchdienst aus der Liste.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>es-ES</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Selección de un pequeño texto en la página no es necesario copiarlo en la barra de búsqueda de su navegador o en el motor de búsqueda. Sólo tiene que pulsar el botón derecho del ratón y seleccione el servicio de búsqueda de la lista disponible.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>pt-PT</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Selecionando um pequeno texto na página não precisa copiá-lo para a barra de busca do seu navegador ou mecanismo de busca. Basta pressionar o botão direito do mouse e selecione o serviço de busca a partir da lista disponível.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>da-DK</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Valg af en lille tekst på siden behøver ikke at kopiere det ind i søgelinjen i din browser eller søgemaskine. Bare tryk på højre museknap og vælg søgetjeneste fra den tilgængelige liste.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>it-IT</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>Selezione di un piccolo testo sulla pagina non è necessario copiarlo nella barra di ricerca del browser o motore di ricerca. Basta premere il tasto destro del mouse e selezionare il servizio di ricerca dall'elenco disponibile.</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>ja-JP</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>お使いのブラウザや検索エンジンの検索バーにそれをコピーする必要はありませんページの小さなテキストを選択しています。ただ、マウスの右ボタンを押して、使用可能なリストから検索サービスを選択します。</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>zh-CN</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>选择页面上的小文不需要复制到您的浏览器或搜索引擎的搜索栏中。只要按下鼠标右键，然后从可用列表搜索服务。</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:localized>
-			<Description>
-				<em:locale>zh-TW</em:locale>
-				<em:name>Zorcher</em:name>
-				<em:description>選擇一個小的文本在頁面上並不需要把它複製到瀏覽器搜索欄或搜索引擎。只要按下鼠標按鈕，然後選擇搜索服務從可用列表中。</em:description>
-				<em:creator>Alexandr Zhovtobrukh</em:creator>
-				<em:developer>Alexandr Ezhak</em:developer>
-			</Description>
-		</em:localized>
-		<em:targetApplication><!--FireFox-->
-			<Description>
-				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>3.0</em:minVersion>
-				<em:maxVersion>4.0b8pre</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		<em:targetApplication><!--SeaMonkey-->
-			<Description>
-				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
-				<em:minVersion>2.0</em:minVersion>
-				<em:maxVersion>2.1b2pre</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-	</Description>
-</RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.mozilla.org/2004/em-rdf#">
+	<rdf:Description about="urn:mozilla:install-manifest">
+		<id>{f8b811fa-75a4-41f7-8fdd-376a02a29aa6}</id>
+		<version>0.4.3.0.1</version>
+		<type>2</type>
+		<name>Zorcher</name>
+		<homepageURL>https://github.com/zyfran/Zorcher</homepageURL>
+		<bootstrap>true</bootstrap>
+		<creator>Alexander Zhovtobryuh</creator>
+		<localized>
+			<rdf:Description>
+				<locale>ru</locale>
+				<name>Zorcher</name>
+				<description>Выделив на странице небольшой текст не нужно копировать его в поисковую строку браузера или поискового сервиса. Достаточно нажать правую клавишу мыши и выбрать нужный поисковый сервис из имеющегося списка.</description>
+				<contributor>Александр Ежак</contributor>
+				<contributor>Дмитрий Продченко</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>en</locale>
+				<name>Zorcher</name>
+				<description>Selecting a small text on the page do not need to copy it into the search bar of your browser or search engine. Just press the right mouse button and select the search service from the available list.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>pt-BR</locale>
+				<name>Zorcher</name>
+				<description>Selecionando um pequena texto na página fazer dispensar copiar a na procura bar dos seus pesquisador ou engenho de pesquisa. Justamente pressione a tecla botão direito e selecione a procura serviço da disponível lista.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>pt-PT</locale>
+				<name>Zorcher</name>
+				<description>Selecionando um pequeno texto na página não precisa copiá-lo para a barra de busca do seu navegador ou mecanismo de busca. Basta pressionar o botão direito do mouse e selecione o serviço de busca a partir da lista disponível.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>et</locale>
+				<name>Zorcher</name>
+				<description>Valides väike lehekülje teksti ei pea kopeerige see otsing oma brauseri või otsingumootor. Lihtsalt vajuta hiire paremat nuppu ja valige search teenuse kättesaadavaks nimekirja.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>sv</locale>
+				<name>Zorcher</name>
+				<description>Välja en liten text på sidan behöver inte kopiera det i sökfältet i webbläsaren eller sökmotor. Tryck bara på höger musknapp och välj söktjänst från den tillgängliga listan.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>hr</locale>
+				<name>Zorcher</name>
+				<description>Odabir mali tekst na stranici ne treba ga kopirati u pretraživanje traku Vašeg preglednika ili tražilice. Samo pritisnite desnu tipku miša i odaberite uslugu pretraživanja iz dostupnih popisa.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>hi</locale>
+				<name>Zorcher</name>
+				<description>पृष्ठ पर एक छोटे से पाठ का चयन करने की जरूरत है यह आपके ब्राउज़र या खोज इंजन के खोज पट्टी में प्रतिलिपि नहीं. बस सही माउस बटन दबाएँ और उपलब्ध सूची में से खोज सेवा का चयन करें.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>fi</locale>
+				<name>Zorcher</name>
+				<description>Valitseminen pieni teksti sivulla ei tarvitse kopioida sen haun selaimesi tai hakukoneen. Paina vain hiiren oikealla painikkeella ja valitse haku palvelu luettelosta.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ur</locale>
+				<name>Zorcher</name>
+				<description>اس صفحہ پر ایک چھوٹی سی عبارت کو منتخب کیا یہ آپ کے براؤزر یا تلاش کے انجن کی تلاش کے خانے میں کاپی کرنے کی ضرورت نہیں ہے. بس صحیح ماؤس کا بٹن دبائیں اور دستیاب فہرست سے تلاش کی خدمت منتخب کریں.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>th</locale>
+				<name>Zorcher</name>
+				<description>การเลือกตัวอักษรขนาดเล็กบนหน้าเว็บไม่จำเป็นต้องคัดลอกลงในแถบการค้นหาของเบราว์เซอร์หรือเครื่องมือค้นหาของคุณ เพียงแค่กดปุ่มเมาส์ขวาและเลือกบริการการค้นหาจากรายการที่มีอยู่</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>tl</locale>
+				<name>Zorcher</name>
+				<description>Pagpili ng isang maliit na teksto sa pahina ay hindi kailangan upang kopyahin ito sa search bar ng iyong browser o mga search engine. Pindutin lamang ang kanang pindutan ng mouse at piliin ang paghahanap sa serbisyo mula sa mga magagamit na listahan.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>sw</locale>
+				<name>Zorcher</name>
+				<description>Kuchagua Nakala ndogo katika ukurasa wa kufanya haja na nakala yake ndani ya search bar ya browser yako au search engine. Vyombo vya habari tu mouse button ya kulia na kuchagua huduma ya kutafuta kutoka orodha ya kupatikana.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>sl</locale>
+				<name>Zorcher</name>
+				<description>Izbira majhna besedila na strani ni treba, da jo kopirajte v iskalno vrstico brskalnika ali iskalnika. Samo pritisnite desno tipko miške in izberite iskanje službe, ki so na voljo seznam.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>sk</locale>
+				<name>Zorcher</name>
+				<description>Výber malého textu na stránke nemusia kopírovať to do vyhľadávacieho riadku vášho prehliadača alebo vyhľadávač. Stačí stlačiť pravé tlačidlo myši a vyberte z vyhľadávacie služby dostupné zoznamu.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>sr</locale>
+				<name>Zorcher</name>
+				<description>Избор мали текст на страници не треба да га копирате у траку за претрагу вашег прегледача или претраживача. Само притисните десним тастером миша и изаберите услугу за претрагу из доступних листе.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ro</locale>
+				<name>Zorcher</name>
+				<description>Selectarea unui text de mici dimensiuni de pe pagina nu trebuie să-l copiaţi în bara de căutare din browser-ul dvs. sau motor de căutare. Doar apăsaţi pe butonul mouse-ului dreapta şi selectaţi serviciul de căutare din lista disponibilă.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>fa</locale>
+				<name>Zorcher</name>
+				<description>انتخاب متن های کوچکی بر روی صفحه لازم نیست که آن را در نوار جستجو از مرورگر شما و یا موتور جستجو را کپی کنید. فقط کافی است از دکمه راست موس را فشار دهید و انتخاب سرویس جستجو را از لیست موجود است.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>no</locale>
+				<name>Zorcher</name>
+				<description>Velge en liten tekst på siden trenger ikke å kopiere det inn i søkefeltet i nettleseren og søke tjeneste. Bare trykk på høyre museknapp og velg søketjenesten fra tilgjengelig liste.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>mt</locale>
+				<name>Zorcher</name>
+				<description>Għażla ta 'test żgħar fuq il-paġna m'għandhomx għalfejn kopja hija fil-bar tfittxija tal-browser tiegħek jew search engine. Just agħfas il-buttuna maws dritt u jagħżlu s-servizz tat-tiftix mill-lista disponibbli.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ms</locale>
+				<name>Zorcher</name>
+				<description>Memilih teks kecil di halaman tidak perlu menyalin ke dalam kotak carian pada browser anda atau mesin carian. Hanya tekan butang tetikus sebelah kanan dan pilih perkhidmatan pencarian dari senarai yang sedia.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>mk</locale>
+				<name>Zorcher</name>
+				<description>Избирање на мал текст на оваа страница не треба да го копирате во полето за пребарување на твојот прелистувач или да пребарувач. Само притиснете го десното копче на глувчето и одберете сервис за пребарување на достапните листа.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>lt</locale>
+				<name>Zorcher</name>
+				<description>Pasirinkus mažas tekstą puslapyje nereikia nukopijuokite jį į paieškos juostą savo naršyklės, arba paieškos sistema. Tiesiog paspauskite dešiniuoju pelės klavišu ir pasirinkite paieškos tarnybos pagal turimus sąrašą.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>lv</locale>
+				<name>Zorcher</name>
+				<description>Izvēloties neliels teksta lapā, nav nepieciešams, lai kopētu to meklēšanas joslā pārlūkprogrammu vai meklētājprogrammu. Vienkārši nospiediet peles labo pogu un izvēlieties meklēšanas pakalpojumu no pieejamās saraksta.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ko</locale>
+				<name>Zorcher</name>
+				<description>귀하의 브라우저 또는 검색 엔진의 검색 표시줄에 파일을 복사하지 않아도 해당 페이지에 작은 텍스트를 선택합니다. 그냥 마우스 오른쪽 버튼을 눌러 사용 가능한 목록에서 검색 서비스를 선택합니다.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ca</locale>
+				<name>Zorcher</name>
+				<description>Selecció d'un petit text a la pàgina no cal copiar a la barra de cerca del navegador o en el motor de cerca. Només ha de prémer el botó dret del ratolí i seleccioneu el servei de recerca de la llista disponible.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>is</locale>
+				<name>Zorcher</name>
+				<description>Val á litlum texta á síðunni þurfa ekki að afrita hann inn í the leita bar af vafranum eða leitarvél. Bara að ýta á hægri músarhnappi og velja leita þjónustu frá fyrirliggjandi lista.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ga</locale>
+				<name>Zorcher</name>
+				<description>Ag roghnú téacs beag ar an leathanach seo nach gá a chóipeáil sé isteach ar an mbarra cuardach do bhrabhsálaí nó inneall cuardaigh. Díreach brúigh an cnaipe luiche ceart agus an tseirbhís cuardaigh ón liosta ar fáil roghnú.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>id</locale>
+				<name>Zorcher</name>
+				<description>Memilih teks kecil di halaman tidak perlu menyalin ke dalam kotak pencarian pada browser Anda atau mesin pencari. Hanya tekan tombol mouse sebelah kanan dan pilih layanan pencarian dari daftar yang tersedia.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>yi</locale>
+				<name>Zorcher</name>
+				<description>סאַלעקטינג אַ קליין טעקסט אויף דעם בלאַט טאָן ניט דאַרפֿן צו צייכענען עס אין די זוך באַר פון אייער בלעטערער אָדער זוכן מאָטאָר. נאָר דריקן די רעכט מויז קנעפּל און סעלעקטירן דעם זוכן דינסט פון די בנימצא רשימה.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>he</locale>
+				<name>Zorcher</name>
+				<description>בחירת טקסט קטנות בעמוד אין צורך להעתיק אותה לתוך שורת החיפוש של הדפדפן או מנוע החיפוש. פשוט לחצו על כפתור העכבר הימני ובחרו את שירות החיפוש מהרשימה זמינים.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ka</locale>
+				<name>Zorcher</name>
+				<description>შერჩევა პატარა ტექსტი გვერდი არ გვჭირდება კოპირება მას ძებნის ბარი თქვენს ბრაუზერში ან საძიებო სისტემა. უბრალოდ დააჭირეთ მაუსის მარჯვენა ღილაკს და აირჩიეთ ძებნის მომსახურება ხელმისაწვდომია სიაში.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>el</locale>
+				<name>Zorcher</name>
+				<description>Επιλέγοντας ένα μικρό κείμενο για την σελίδα δεν χρειάζεται να το αντιγράψετε στη γραμμή αναζήτησης του browser σας ή μηχανή αναζήτησης. Απλά πατήστε το δεξί πλήκτρο του ποντικιού και επιλέξτε την υπηρεσία αναζήτησης από τη διαθέσιμη λίστα.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>nl</locale>
+				<name>Zorcher</name>
+				<description>Het selecteren van een kleine tekst op de pagina is niet nodig om het te kopiëren in de zoekbalk van uw browser of zoekmachine. Je drukt op de rechter muisknop en selecteer de zoekservice uit de beschikbare lijst.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>gl</locale>
+				<name>Zorcher</name>
+				<description>Seleccionando un pequeno texto na páxina non ten que copia-lo á barra de procura do seu navegador ou mecanismo de busca. Só ten que premer o botón dereito do rato e selecciona o servizo de procura a partir da lista dispoñible.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>vi</locale>
+				<name>Zorcher</name>
+				<description>Lựa chọn một văn bản nhỏ trên trang không cần phải sao chép nó vào thanh tìm kiếm của trình duyệt hoặc công cụ tìm kiếm. Chỉ cần nhấn nút chuột phải và chọn các dịch vụ tìm kiếm từ danh sách có sẵn.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>hu</locale>
+				<name>Zorcher</name>
+				<description>Kiválasztása egy kis szöveg az oldalon nem kell másolni a keresőbe a böngésző címsorába vagy a keresőmotor. Csak nyomja meg a jobb egérgombbal, és válassza ki a keresési szolgáltatást a listából.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>cy</locale>
+				<name>Zorcher</name>
+				<description>Dewis testun bach ar y dudalen nid oes angen i copi i mewn i'r bar chwilio am eich porwr neu peiriant chwilio. Jyst pwyswch y botwm dde y llygoden a dewiswch y gwasanaeth chwilio o'r rhestr sydd ar gael.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>bg</locale>
+				<name>Zorcher</name>
+				<description>Избор на малък текст на страницата, не трябва да го копирате в лентата за търсене на браузъра си или търсачка. Трябва само да натиснете десния бутон на мишката и изберете търсене на услуги от списъка с налични.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>be</locale>
+				<name>Zorcher</name>
+				<description>Вылучыўшы на старонцы невялікі тэкст не трэба капіраваць яго ў пошукавую радок браўзэра або пошукавага сэрвісу. Дастаткова націснуць правую клавішу мышы і выбраць патрэбны пошукавы сэрвіс з наяўнага спісу.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>eu</locale>
+				<name>Zorcher</name>
+				<description>Orrian testu txiki bat hautatzea beharrezko ez kopiatu zure nabigatzailearen edo bilatzaile barran bilatu nahi. Sakatu saguaren eskuineko botoia eta eskuragarri dauden zerrendatik zerbitzua bilaketa hautatu.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>af</locale>
+				<name>Zorcher</name>
+				<description>Kies van 'n klein teks op die bladsy hoef nie dit te kopieer in die search bar van jou browser of soek enjin. Druk net op die regter muis knoppie en kies die soektog diens van die beskikbare lys.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>hy</locale>
+				<name>Zorcher</name>
+				<description>Ընտրելով մի փոքր տեքստ էջում չեն պետք է պատճենեք այն որոնումը բար Ձեր բրաուզերում կամ որոնման համակարգ. Պարզապես սեղմեք աջ մկնիկը կոճակը եւ ընտրեք այն որոնման ծառայություն առկա ցուցակը.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>sq</locale>
+				<name>Zorcher</name>
+				<description>Zgjedhjen e një teksti të vogël në faqe nuk kanë nevojë për kopje e saj në shiritin e kërkimit të shfletuesit tuaj apo search engine. Vetëm shtypni butonin e djathte te mausit dhe zgjidhni shërbim kërkimi nga lista në dispozicion.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>az</locale>
+				<name>Zorcher</name>
+				<description>brauzerinizin və ya axtarışı, search bar kopyalayın ehtiyac yoxdur Sehife bir kiçik mətn seçilməsi. Sadece sağ siçan düyməsini basın və mövcud siyahıdan axtarış xidmət seçin.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>uk</locale>
+				<name>Zorcher</name>
+				<description>Виділивши на сторінці невеликий текст не потрібно копіювати його в пошуковий рядок браузера або пошукового сервісу. Досить натиснути праву клавішу миші і вибрати потрібний пошуковий сервіс з наявного списку.</description>
+				<creator>Олександр Жовтобрюх</creator>
+				<contributor>Олександр Єжак</contributor>
+				<contributor>Дмитро Продченко</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ar</locale>
+				<name>Zorcher</name>
+				<description>اختيار نص صغير على الصفحة لا تحتاج إلى نسخ في شريط البحث في المتصفح الخاص بك أو محرك البحث. مجرد الضغط على زر الفأرة الأيمن واختيار خدمة البحث من القائمة المتاحة.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>pl</locale>
+				<name>Zorcher</name>
+				<description>Wybór małych tekstu na stronie nie trzeba skopiować go do paska wyszukiwania przeglądarki lub wyszukiwarki. Wystarczy kliknąć prawym przyciskiem myszy i wybierz wyszukiwarki z dostępnej listy.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>tr</locale>
+				<name>Zorcher</name>
+				<description>Tarayıcınızın veya arama motoru arama çubuğuna kopyalayın gerekmez sayfasında küçük bir metin seçme. Sadece farenin sağ tuşuna basın ve mevcut listeden arama hizmeti seçin.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>cs</locale>
+				<name>Zorcher</name>
+				<description>Výběr malého textu na stránce nemusí kopírovat to do vyhledávacího řádku vašeho prohlížeče nebo vyhledávač. Stačí stisknout pravé tlačítko myši a vyberte z vyhledávací služby dostupné seznamu.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>fr</locale>
+				<name>Zorcher</name>
+				<description>Sélection d'un texte sur la page n'est pas nécessaire de le copier dans la barre de recherche de votre navigateur ou le moteur de recherche. Il suffit d'appuyer sur le bouton droit de la souris et sélectionnez le service de recherche dans la liste disponible.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>de</locale>
+				<name>Zorcher</name>
+				<description>Auswählen eines kleinen Text auf der Seite nicht brauchen, um sie in die Suchleiste Ihres Browsers oder Suchmaschinen zu kopieren. Drücken Sie einfach die rechte Maustaste und wählen Sie den Suchdienst aus der Liste.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>es-ES</locale>
+				<name>Zorcher</name>
+				<description>Selección de un pequeño texto en la página no es necesario copiarlo en la barra de búsqueda de su navegador y servicio de búsqueda. Sólo tiene que pulsar el botón derecho del ratón y seleccione el servicio de búsqueda de la lista disponible.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>es-AR</locale>
+				<locale>es-BO</locale>
+				<locale>es-CL</locale>
+				<locale>es-CU</locale>
+				<locale>es-CR</locale>
+				<locale>es-DO</locale>
+				<locale>es-EC</locale>
+				<locale>es-GT</locale>
+				<locale>es-HN</locale>
+				<locale>es-MX</locale>
+				<locale>es-NI</locale>
+				<locale>es-PA</locale>
+				<locale>es-PE</locale>
+				<locale>es-PR</locale>
+				<locale>es-PY</locale>
+				<locale>es-SV</locale>
+				<locale>es-UY</locale>
+				<locale>es-US</locale>
+				<locale>es-VE</locale>
+				<name>Zorcher</name>
+				<description>Eligiendo un pequeño texto en la página hacer dispensar a copia él a el búsqueda barra de su hojeador o buscador. Justa prensa el derecho botón de ratón y selecto el búsqueda servicio del disponible lista.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>da</locale>
+				<name>Zorcher</name>
+				<description>Valg af en lille tekst på siden behøver ikke at kopiere det ind i søgelinjen i din browser eller søgemaskine. Bare tryk på højre museknap og vælg søgetjeneste fra den tilgængelige liste.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>it</locale>
+				<name>Zorcher</name>
+				<description>Selezione di un piccolo testo sulla pagina non è necessario copiarlo nella barra di ricerca del browser o motore di ricerca. Basta premere il tasto destro del mouse e selezionare il servizio di ricerca dall'elenco disponibile.</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>ja</locale>
+				<name>Zorcher</name>
+				<description>お使いのブラウザや検索エンジンの検索バーにそれをコピーする必要はありませんページの小さなテキストを選択しています。ただ、マウスの右ボタンを押して、使用可能なリストから検索サービスを選択します。</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>zh-CN</locale>
+				<name>Zorcher</name>
+				<description>选择页面上的小文不需要复制到您的浏览器或搜索引擎的搜索栏中。只要按下鼠标右键，然后从可用列表搜索服务。</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<localized>
+			<rdf:Description>
+				<locale>zh-TW</locale>
+				<name>Zorcher</name>
+				<description>選擇一個小的文本在頁面上並不需要把它複製到瀏覽器搜索欄或搜索引擎。只要按下鼠標按鈕，然後選擇搜索服務從可用列表中。</description>
+				<contributor>Alexander Ezhak</contributor>
+				<contributor>Dmitry Prodchenko</contributor>
+			</rdf:Description>
+		</localized>
+		<targetApplication><!--FireFox-->
+			<rdf:Description>
+				<id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+				<minVersion>4.0</minVersion>
+				<maxVersion>16.0a1</maxVersion>
+			</rdf:Description>
+		</targetApplication>
+		<targetApplication><!--SeaMonkey-->
+			<rdf:Description>
+				<id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id>
+				<minVersion>2.1</minVersion>
+				<maxVersion>2.13a1</maxVersion>
+			</rdf:Description>
+		</targetApplication>
+	</rdf:Description>
+</rdf:RDF>
