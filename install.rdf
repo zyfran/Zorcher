@@ -6,6 +6,7 @@
 		<type>2</type>
 		<name>Zorcher</name>
 		<homepageURL>https://github.com/zyfran/Zorcher</homepageURL>
+		<optionsURL>chrome://zorcher/content/options.xul</optionsURL>
 		<bootstrap>true</bootstrap>
 		<creator>Alexander Zhovtobryuh</creator>
 		<localized>
@@ -561,14 +562,14 @@
 		<targetApplication><!--FireFox-->
 			<rdf:Description>
 				<id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
-				<minVersion>4.0</minVersion>
+				<minVersion>10.0</minVersion>
 				<maxVersion>16.0a1</maxVersion>
 			</rdf:Description>
 		</targetApplication>
 		<targetApplication><!--SeaMonkey-->
 			<rdf:Description>
 				<id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</id>
-				<minVersion>2.1</minVersion>
+				<minVersion>2.7</minVersion>
 				<maxVersion>2.13a1</maxVersion>
 			</rdf:Description>
 		</targetApplication>

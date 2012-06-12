@@ -2,6 +2,7 @@ const Cc = Components.classes, Ci = Components.interfaces, Cu = Components.utils
 const ZorcherID = '{f8b811fa-75a4-41f7-8fdd-376a02a29aa6}';
 
 Cu.import('resource://gre/modules/Services.jsm');
+Cu.import('resource://gre/modules/AddonManager.jsm');
 
 var global = null;
 
@@ -12,7 +13,7 @@ function main(window)
 	function $(id) doc.getElementById(id)
 	function xul(type) doc.createElementNS('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul', type)
 	
-	let addon = $('statusbar') || $('addon-bar'), barbutton;
+	let addon = $('statusbar') || $('addon-bar'), barbutton, barpopup;
 	if (addon) {
 		barbutton = xul('toolbarbutton');
 		barbutton.id = 'zorcher-bar';
@@ -21,6 +22,19 @@ function main(window)
 		barbutton.setAttribute('tooltiptext', 'Zorcher');
 		//barbutton.setAttribute('class', 'zorcher-iconic');
 		addon.appendChild(barbutton);
+		barpopup = xul('menupopup');
+		barpopup.id = 'zorcher-optons-menu';
+		barbutton.appendChild(barpopup);
+		let item = xul('menuitem');
+		item.setAttribute('label', 'Options');
+		barpopup.appendChild(item);
+		item = xul('menuseparator');
+		barpopup.appendChild(item);
+		item = xul('menuitem');
+		item.setAttribute('label', 'Multiple');
+		item.setAttribute('type', 'checkbox');
+		item.id = 'zorcher-multiple-selector';
+		barpopup.appendChild(item);
 	}
 	
 	let content = $('contentAreaContextMenu'), popup;
